@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Css Assignment</title>
+  <link rel ="stylesheet" href="link.css">
+</head>
+<body>
+  <!-- Poem Name -->
+  <h1>Ozymandias</h1>
+  <!-- Poet Name -->
+  <h2>By Percy Bysshe Shelley</h2>
+  <!-- Poem -->
+  <p>
+    I met a traveller from an antique land,<br>
+    who said - "Two vast and trunkless legs of stone<br>
+    stand in the desert . . . . Near them , on the sand , <br>
+    Half sunk a shattered visage lies n whose frown , <br>
+    and wrinkled lip, and sneer of cold command , <br>
+    Tell that its sculptor well those passion read <br>
+    which yet survive , stamped on these lifelss things, <br>
+    The hand that mocked them, and the heart that fed ; <br>
+    And on the pedestal , these words appear :<br>
+    My name is Ozymandias , King of Kings;<br>
+    Look on my works , Ye Mighty , and despair! <br>
+    Nothing beside remains . Round the decay <br>
+    of that colossal Wreck , boundless and bare <br>
+    The lone and level sands stretch far away."<br>
+  </p>
+  <hr>
+  <h4>Read up more about the poem on 
+  <a href="https://en.wikipedia.org.wiki.Ozymandias"><br>wikipedia</a> </h4>
+
+  <textarea placeholder="Leave your comment here ..."></textarea>
+  <br><br>
+  <button>Comment</button>
+  My name is <span>Ozymandias</span>, King of kings ;<br>
+  
+</body>
+</html>
+
+
+
+<!-- css code -->
+body{
+    background-color: wheat;
+}
+h1{
+    text-decoration: underline;
+    color: red;
+}
+p{
+    color : #A52A2A;
+    text-align: center;
+    line-height: 30px;
+}
+h1 , h2, h4{
+    text-align: center;
+}
+
+body{
+    font-family: georgia;
+}
+a{
+    color: rgb(0, 155, 0);
+    text-decoration: none;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color : black
+}
+
